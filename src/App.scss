@@ -1,0 +1,43 @@
+.App {
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  
+  
+  margin: 0rem 30%;
+  margin-top: 10rem;
+  
+  height: 30rem;
+  padding:1rem 0;
+  .mess-list{
+    
+    overflow-y: scroll;
+    height: 90%;
+  }
+  .form{
+    padding: 0 5%;
+    height: 10%;
+    display: flex;
+    width: 100%;
+    
+    &__ip{
+      width: 80%;
+      margin-right: 3%;
+      border-radius: 50rem;
+      border:1px solid lightgray;
+      padding-left: 1rem;
+      &:focus{
+        outline: none;
+      }
+    }
+    &__btn-send{
+      width: 17%;
+      background-color: yellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50rem;
+      cursor: pointer;
+    }
+  }
+}
+

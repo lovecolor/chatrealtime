@@ -1,0 +1,28 @@
+.mess-left{
+    
+    display: flex;
+    margin: 1rem 1rem;
+}
+.mess-right{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem 1rem;
+}
+.avt{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin: 0 1rem;
+}
+.text{
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 80%;
+    overflow: visible;
+    padding:0.5rem 1rem;
+    word-break: break-word;
+}
